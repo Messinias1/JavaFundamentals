@@ -1,8 +1,16 @@
 public class App {
     public static void main(String[] args) {
-        String name = "John";
-        int age = 25;
-        System.out.println("There once was a man named "
-                + name + " and he was " + age);
+
+        String phrase = "What up fam";
+        int age = 35;
+        double gpa = 2.7;
+        char letter = 'ä';
+        boolean isMale = true;
+
+        System.out.println(phrase);
+        System.out.println(age);
+        System.out.println(gpa);
+        System.out.println(letter);
+        System.out.println(isMale);
     }
 }
