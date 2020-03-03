@@ -1,16 +1,13 @@
 public class App {
     public static void main(String[] args) {
 
-        String phrase = "What up fam";
-        int age = 35;
-        double gpa = 2.7;
-        char letter = 'ä';
-        boolean isMale = true;
+        String phrase = "Giraffe Academy";
 
-        System.out.println(phrase);
-        System.out.println(age);
-        System.out.println(gpa);
-        System.out.println(letter);
-        System.out.println(isMale);
+        System.out.println(phrase.length());
+        System.out.println(phrase.contains("dog"));
+        System.out.println(phrase.charAt(1));
+        System.out.println(phrase.lastIndexOf("e"));
+        System.out.println(phrase.substring(0,
+                phrase.indexOf(" ")));
     }
 }
