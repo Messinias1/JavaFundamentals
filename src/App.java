@@ -1,13 +1,12 @@
 public class App {
     public static void main(String[] args) {
 
-        String phrase = "Giraffe Academy";
-
-        System.out.println(phrase.length());
-        System.out.println(phrase.contains("dog"));
-        System.out.println(phrase.charAt(1));
-        System.out.println(phrase.lastIndexOf("e"));
-        System.out.println(phrase.substring(0,
-                phrase.indexOf(" ")));
+        System.out.println(Math.abs(-2));
+        System.out.println(Math.pow(12, 2));
+        System.out.println(Math.sqrt(36));
+        System.out.println(Math.min(2, 6));
+        System.out.println(Math.max(2, 6));
+        System.out.println(Math.round(5.6));
+        System.out.println(Math.random());
     }
 }
