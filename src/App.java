@@ -1,20 +1,25 @@
 import java.util.Scanner;
+class Person {
+    public String aName;
+    public String aSurname;
+    public int aAge;
+
+    public Person(String name, String surname, int age){
+        this.aName = name;
+        this.aSurname = surname;
+        this.aAge = age;
+    }
+}
 
 public class App {
     public static void main(String[] args) {
 
-        Scanner keyboardInput = new Scanner(System.in);
+        Person Carl = new Person("Carl",
+                "Kakisis", 25);
+        System.out.println(Carl.aName);
 
-        System.out.println("Enter a color: ");
-        String color = keyboardInput.nextLine();
-        System.out.println("Enter a plural noun: ");
-        String pluralNoun = keyboardInput.nextLine();
-        System.out.println("Enter a celebrity: ");
-        String celebrity = keyboardInput.nextLine();
-
-
-        System.out.println("Roses are " + color + "\n"
-                + pluralNoun + " are blue \n" +
-                "I love " + celebrity);
+//        String [] friends = {"Zach", "Chris", "Bob"};
+//
+//        System.out.println(friends[0]);
     }
 }
