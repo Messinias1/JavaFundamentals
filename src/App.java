@@ -1,25 +1,22 @@
-import java.util.Scanner;
-class Person {
-    public String aName;
-    public String aSurname;
-    public int aAge;
+class Car {
+    public String make;
+    public String model;
 
-    public Person(String name, String surname, int age){
-        this.aName = name;
-        this.aSurname = surname;
-        this.aAge = age;
+    public Car(String aMake, String aModel) {
+        this.make = aMake;
+        this.model = aModel;
     }
 }
 
 public class App {
     public static void main(String[] args) {
 
-        Person Carl = new Person("Carl",
-                "Kakisis", 25);
-        System.out.println(Carl.aName);
+        Car car1 = new Car("Saab", "9-3");
+        System.out.println(car1.make);
+        sayHi("Carl", 25);
+    }
 
-//        String [] friends = {"Zach", "Chris", "Bob"};
-//
-//        System.out.println(friends[0]);
+    public static void sayHi(String name, int age) {
+        System.out.println("Hello " + name + " you are " + age);
     }
 }
