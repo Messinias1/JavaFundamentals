@@ -10,6 +10,7 @@ public class App {
         int i = 4;
         double d = 4.0;
         char h = 'h';
+        int ii2 = 25;
         String s = "HackerRank ";
 
         Scanner scan = new Scanner(System.in);
