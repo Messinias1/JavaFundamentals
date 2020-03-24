@@ -11,6 +11,7 @@ public class App {
         double d = 4.0;
         char h = 'h';
         int ii2 = 25;
+        double dd2 = 54.4;
         String s = "HackerRank ";
 
         Scanner scan = new Scanner(System.in);
