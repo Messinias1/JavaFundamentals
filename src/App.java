@@ -13,6 +13,7 @@ public class App {
         int ii2 = 25;
         double dd2 = 54.4;
         String sv = "Jag älskar att lära mig Svenska";
+        String nySV = "Jag vet inte";
         String s = "HackerRank ";
 
         Scanner scan = new Scanner(System.in);
