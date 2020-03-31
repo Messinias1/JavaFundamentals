@@ -10,6 +10,7 @@ public class App {
         int i = 4;
         double d = 4.0;
         char h = 'h';
+        char c = 'c';
         int ii2 = 25;
         double dd2 = 54.4;
         String sv = "Jag älskar att lära mig Svenska";
